@@ -15,9 +15,9 @@
 		http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 	<!-- Add support for component scanning -->
-	<context:component-scan base-package="com.springdemo" />
+	<context:component-scan base-package="com.lamp" />
 	
-	<import resource = "classpath:/springDemo-service-context.xml" />	
+	<import resource = "classpath:/lamp-service-context.xml" />	
 
 	<!-- Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven/>

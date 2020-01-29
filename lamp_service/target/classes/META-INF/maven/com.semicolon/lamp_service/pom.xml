@@ -6,4 +6,13 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>lamp_service</artifactId>
+  
+  <dependencies>
+    <dependency>
+   <groupId>com.semicolon</groupId>
+    <artifactId>lamp_data</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  </dependencies>
+  
 </project>
